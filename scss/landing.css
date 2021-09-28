@@ -1,0 +1,92 @@
+
+
+/* This is for the Hero Landing section */
+.hero-land__card{
+  display: inline-block;
+  height: 45rem;
+  width: 49%;
+  vertical-align: bottom;
+}
+
+.hero-land__card--left{
+  margin: 8rem auto auto 36rem;
+  width: 35%;
+}
+
+.hero-land__card--right{
+  margin: 4rem 24rem auto auto;
+  width: 35%;
+}
+
+.hero-land__cta{
+  padding: .75rem 2.25rem;
+}
+
+.image{
+  min-height: 15rem;
+  max-height: 53.125rem;
+}
+
+.ourproducts__title{
+  margin: 0px auto;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 5rem;
+}
+
+.ourproducts__card {
+  display: inline-block;
+  height: 32rem;
+  width: 20rem;
+  background-color: #FFF;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(8, 8, 8, 0.2);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 1rem 4rem;
+  vertical-align: bottom;
+}
+
+.ourproducts__cardimage {
+  height: 20rem;
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+.ourproducts__cardtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.ourproducts__carddescription {
+  font-size: 1.5rem;
+}
+
+.ourproducts__viewall{
+  margin: 0px auto;
+  text-align: center;
+  padding: 3rem 5rem;
+  font-size: 1.5rem;
+}
+
+.ourproducts__viewallbutton{
+  width: 10rem;
+  margin: 0 auto;
+  padding: .75rem 2.25rem;
+}
+
+.discount-banner {
+  color: #FFF;
+  font-size: 2.5rem;
+  background-color: #393939;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.footercontainer{
+  width: 70%;
+  margin: 0 auto;
+}
