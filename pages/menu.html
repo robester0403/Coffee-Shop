@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../scss/partials/global.css" />
-    <link rel="stylesheet" type="text/css" href="../scss/landing.css" />
+    <link rel="stylesheet" type="text/css" href="../scss/menu.css" />
     <title>Coffee Shop - Home</title>
 </head>
 <body>
@@ -13,35 +13,37 @@
 <!-- This section is specific for the nav-bar -->
     <header>
         <nav class="nav-bar">
-            <div class="nav-bar-logoblock">
-                
-                <a href="../index.html" class="nav-bar-nitroblock">
-                    <img src="../assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon"/>
-                
-                    <h2 class="nav-bar-nitroblock">nitro</h2>
+            <div class="nav-bar__logoblockcontainer">
+                <a href="../index.html">
+                    <img src="../assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon"/>    
                 </a>
+                <div class="nav-bar__nitro">nitro</div>
             </div>
-            <div class="nav-bar__block">
-                <a href="../index.html">ABOUT</a>
-            </div>
-            <div class="nav-bar__block">
-                <a href="../pages/menu.html">MENU</a>
-            </div>
-            <div class="nav-bar__block">
-                <a href="../pages/menu.html">SHOP NOW</a>
+            <div class="nav-bar__blockcontainer">
+                <div class="nav-bar__block">
+                    <a href="../index.html">ABOUT</a>
+                </div>
+                <div class="nav-bar__block">
+                    <a href="../pages/menu.html">MENU</a>
+                </div>
+                <div class="nav-bar__block">
+                    <a href="../pages/menu.html">
+                        <div class="price">
+                            SHOP NOW
+                        </div>
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
-
 <!-- This section is specific for the background image -->
 <div class="bg-img">
-    <div class="container">
-        
-        <h2 class="topnav">Menu</h2>
-        
-    </div>
+    <div class="bg-img__menurectangle">
+        Menu
+        <div class="bg-img__menublueborder">
+        </div>
+    </div>  
 </div>
-
 <!-- This section is for the Drinks -->
 <div class="menu-tableofcontents">
     <div class="menu-tableofcontents__container">

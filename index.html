@@ -11,15 +11,14 @@
 <body>
 <!-- This is the nav-bar section -->
     <header>
-        <nav class="nav-bar">
-            <div class="nav-bar-logoblock">
-                
-                <a href="../index.html" class="nav-bar-nitroblock">
-                    <img src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon"/>
-                
-                    <h2 class="nav-bar-nitroblock">nitro</h2>
+        <nav class="nav-bar__landing">
+            <div class="nav-bar__logoblockcontainer">
+                <a href="../index.html">
+                    <img src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon"/>    
                 </a>
+                <div class="nav-bar__nitro">nitro</div>
             </div>
+            
             <div class="nav-bar__block">
                 <a href="./index.html">ABOUT</a>
             </div>
@@ -27,62 +26,97 @@
                 <a href="./pages/menu.html">MENU</a>
             </div>
             <div class="nav-bar__block">
-                <a href="./pages/menu.html">SHOP NOW</a>
+                <a href="./pages/menu.html">
+                    <div class="price">
+                        SHOP NOW
+                    </div>
+                </a>
             </div>
         </nav>
     </header>
 <!-- this is the herosection -->
     <section class="nitro-pink-background">
-        <div class="hero-land__card">
-            <div class="hero-land__card--left">
-                <h1>Nitro Coffee</h1>
-                <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
-                <a href="./pages/menu.html">
-                    <button class="hero-land__cta blue-button">SHOP NOW</button>
-                </a>
-            </div>
-        </div>
-        <div class="hero-land__card">
-            <div class="hero-land__card--right">
-                <img src="assets/coffeebeans-hero.png" alt="coffee bag" class="image"/>
-            </div>
-        </div>
-    </section>
-<!-- /* this is OurProduct section */ -->
-<section class="light-gray-background">
-    <h2 class="ourproducts__title"</h2>Our Products</h2>
-</section>
 
-
-<section class="light-gray-background">
-<div class="containers">
-<section>
-    <section class="ourproducts__card">
-        <img class="ourproducts__cardimage" src="./assets/coffeebeans.png" alt="coffee beans" />
-        <h3 class="ourproducts__cardtitle">Coffee Beans</h3>
-        <div class="ourproducts__carddescript price">$18.99</div>
-    </section>
-    <section class="ourproducts__card">
-        <img class="ourproducts__cardimage" src="./assets/coldbrew.png" alt="cold brew" />
-        <h3 class="ourproducts__cardtitle">Cold Brew</h3>
-        <div class="ourproducts__carddescript">$4.99</div>
-    </section>
-    <section class="ourproducts__card">
-        <img class="ourproducts__cardimage" src="./assets/inhousebrew.png"
-            alt="in-house brew" />
-            <h3 class="ourproducts__cardtitle">In-house Brew</h3>
-            <div class="ourproducts__carddescription">$2.99</div>
-</section>
-</div>
-</section>
-
-<section class="light-gray-background">
-    <div class="ourproducts__viewall">
+<div class="heroland__container">
+    <div class="heroland__card">
+        <h1>Nitro Coffee</h1>
+        <p class="heroland__card--textleft">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
         <a href="./pages/menu.html">
-            <div class="ourproducts__viewallbutton blue-button">VIEW ALL</div>
+        <button class="blue-button">SHOP NOW</button>
         </a>
     </div>
-</section>
+    <div class="heroland__card">
+        <img src="assets/coffeebeans-hero.png" alt="coffee bag" class="heroland__cardimage"/>
+    </div>
+</div>
+
+    </section>
+<!-- /* this is OurProduct section */ -->
+<div class="ourproducts__container light-gray-background">
+    <div>
+        <h2 class="ourproducts__title">Our Products</h2>
+    </div>
+<!-- This is where are cards are -->
+    <div class="ourproducts__cardcontainer">
+        <div class="ourproducts__card">
+            <div class="ourproducts__cardimagecontainer">
+                <img src="./assets/coffeebeans.png" alt="coffee beans" class="ourproducts__cardimage"/>
+            </div>
+            <div class="ourproducts__carddescriptcontainer">
+                <div class="ourproducts__carddescription">
+                    <div>
+                        <div class="ourproducts__cardproducttitle">Coffee Beans</div>
+                        <div class="ourproducts__cardproductportion">Pack of 3</div>
+                    </div>
+                </div>
+                <div class="ourproducts__cardpricingcontainer">
+                    <div class="ourproducts__cardpricing">$19</div>
+                </div>
+            </div>
+        </div>
+        <div class="ourproducts__card">
+            <div class="ourproducts__cardimagecontainer">
+                <img src="./assets/coldbrew.png" alt="cold brew" class="ourproducts__cardimage"/>
+            </div>
+            <div class="ourproducts__carddescriptcontainer">
+                <div class="ourproducts__carddescription">
+                    <div>
+                        <div class="ourproducts__cardproducttitle">Cold Brew</div>
+                        <div class="ourproducts__cardproductportion">1 can</div>
+                    </div>
+                </div>
+                <div class="ourproducts__cardpricingcontainer">
+                    <div class="ourproducts__cardpricing">$5</div>
+                </div>
+            </div>
+        </div>
+        <div class="ourproducts__card">
+            <div class="ourproducts__cardimagecontainer">
+                <img src="./assets/inhousebrew.png" alt="inhousebrew" class="ourproducts__cardimage"/>
+            </div>
+            <div class="ourproducts__carddescriptcontainer">
+                <div class="ourproducts__carddescription">
+                    <div>
+                        <div class="ourproducts__cardproducttitle">In-house</div>
+                        <div class="ourproducts__cardproductportion">1 cup</div>
+                    </div>
+                </div>
+                <div class="ourproducts__cardpricingcontainer">
+                    <div class="ourproducts__cardpricing">$3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="ourproducts__viewall">
+            <a href="./pages/menu.html">
+                <div class="ourproducts__viewallbutton blue-button">VIEW ALL</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
 <!-- 
 This is for the discount banner  -->
     <div class="discount-banner">
@@ -90,15 +124,13 @@ This is for the discount banner  -->
     </div>
 
     <footer class='nitro-pink-background'>
-        <div class="footercontainer">
-        <section class="contact">
-            <div>
-                <div class="contact-card">
+        <div class="contact__container">
+                <div class="contact__card">
                     <h3>Address</h3>
                     <p>503 Broadway Penthouse</p>
                     <p>New York</p>
                 </div>
-                <div class="contact-card">
+                <div class="contact__card">
                     <h3>Hours</h3>
                     <p><strong>Monday - Friday</strong> 9am - 7pm</p>
                     <p><strong>Saturday - Sunday</strong> 10am - 5pm</p>
@@ -112,8 +144,6 @@ This is for the discount banner  -->
                         <a href="http://www.instagram.com"><img src="assets/Instagram-Icon.svg"/ alt="instagram" class="icon"/></a>
                     </p>
                 </div>
-        </section>
-        </div>
     </footer>
 
 </body>

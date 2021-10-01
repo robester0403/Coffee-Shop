@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\lec-positioning-and-floats\\lec-positioning-and-floats"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Coffee_Shop"
+	}
+}

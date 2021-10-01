@@ -1,2 +1,90 @@
+.bg-img{
+  background-image: url("../../assets/coffee-circle.jpg");
+  width: 100%;
+  min-height: 38rem;
+  max-height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.bg-img__menurectangle{
+  width: 12rem;
+  height: 7rem;
+  background-color: #393939;
+  position: relative;
+  top: 10px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.bg-img__menublueborder{
+  width: 12rem;
+  height: 7rem;
+  border-color: #5BACC3;
+  border-style: solid;
+  background-color: transparent;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 0.6rem;
+  bottom: 0.6rem;
+  box-sizing: border-box;
+}
+/* Menu section drinks */
+.menu-tableofcontents {
+  background-color: #393939;
+  width: 100%;
+  height: 2rem;
+  padding: 10px 0px;
+}
+
+.menu-tableofcontents__container{
+  margin: 0 auto;
+  width: fit-content;
+}
+.menu-tableofcontents__box{
+  width: 200px;
+  height: 30px;
+  color: #FFF;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  text-align: center;
+  display: inline;
+  padding-left: 20px;
+  border-left: 3px solid #5BACC3;
+  margin: 10px 40px 0px 0px
+}
+/* This is for the main menu */
+.mainmenu-box{
+  display:block;
+  margin: 0px auto;
+  padding: 0.5rem 0;
+  width: fit-content;
+}
+.bottom-margin{
+  margin-bottom: 20px;
+}
+.mainmenu-box__description{
+  display:block;
+  margin: 0px auto;
+  width: 600px;
+  margin-top: 5px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.mainmenu-box__price{
+  color: #5BACC3;
+  text-align: center;
+  font-size: 28px;
+  padding-right: 1.5rem;
+  margin: 0rem;
+}
 

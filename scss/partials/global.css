@@ -1,216 +1,105 @@
 html {
   scroll-behavior: smooth;
 }
-
-nav, footer {
+nav{
   font-size: 2.0625rem;
   font-weight: 300;
 }
-
+footer{
+  font-size: 2.0625rem;
+  font-weight: 300;
+}
 body {
   color: #393939;
   font-family: 'Open Sans', sans-serif;
   background-color: #FFF;
 }
-
 a:link {
   color: initial;
   text-decoration: none;
 }
-
 a:visited {
   color: initial;
 }
-
 h1 {
-  font-size: 3.75rem;
+  font-size: 4rem;
   font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0px;
 }
-
 h2 {
   font-size: 3.75rem;
   font-weight: 300;
 }
-
 h3 {
-  font-size: 2.0625rem;
+  font-size: 2rem;
   font-weight: 300;
+  margin: 0;
 }
-
+h4{
+  margin: 0;
+}
 p {
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   font-weight: 400;
 }
-
 .price{
   color: #5BACC3;
   text-align: center;
 }
-
-.containers {
-  width: fit-content;
-  height: fit-content;
-  margin: 0px auto;
-}
-
 /* Specific to nav bar and should be global */
 .nav-bar{
   background-color: #fff0ed;
   max-width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-
+.nav-bar__landing{
+  background-color: #fff0ed;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-bar__logoblockcontainer{
+  display: flex;
+  align-items: flex-end;
+}
+.nav-bar__nitro{
+  margin-right: 4rem;
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+.nav-bar__blockcontainer{
+  display:flex;
+}
 .nav-bar__block{
-  display: inline;
-  margin: 0rem 2em 0em 0em;
+  margin: auto 2em 0.25em 0em;
 }
-
-/* #nav-bar-shopnowblock{
-  display: inline;
-  margin: 0rem 2em 0em 0em;
-  color: #5BACC3;
-} */
-
-.nav-bar-logoblock{
-  display: inline-block;
-  max-width: 10em;
-}
-
-.nav-bar-nitroblock{
-  display: inline-block;
-  margin: 0rem .5em 0em 0em;
-}
-
 /* specific to the hero background image and the menu rectangle */
-.bg-img{
-  background-image: url("../../assets/coffee-circle.jpg");
-  width: 100%;
-  height: 65rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.container {
-  margin: 20px;
-  width: auto;
-}
-
-.topnav {
-  color: #FFF;
-  overflow: hidden;
-  background-color: #393939;
-  text-align: center;
-  width: 17.5rem;
-  height: 11.25rem;
-  margin: 0 auto;
-}
-
-/* Menu section drinks */
-
-.menu-tableofcontents {
-  background-color: #393939;
-  width: 100%;
-  height: fit-content;
-  padding: 10px 0px;
-
-}
-
-.menu-tableofcontents__container{
-  margin: 0 auto;
-  width: fit-content;
-}
-
-.menu-tableofcontents__box{
-  width: 200px;
-  height: 30px;
-  color: #FFF;
-  font-size: 1.3125rem;
-  font-weight: 400;
-  text-align: center;
-  display: inline;
-  padding-left: 20px;
-  border-left: 3px solid #5BACC3;
-  margin: 10px 40px 0px 0px
-}
-
-/* This is for the main menu */
-.mainmenu-box{
-  display:block;
-  margin: 0px auto;
-  width: fit-content;
-}
-.bottom-margin{
-  margin-bottom: 20px;
-}
-.mainmenu-box__description{
-  display:block;
-  margin: 0px auto;
-  width: 600px;
-  margin-top: 5px;
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-style: italic;
-}
-
-
-
 .blue-button{
   background-color: #5BACC3;
   color: white;
   border: none;
   font-size: 1.5em;
+  padding: .75rem 2.25rem;
 }
 .left {
   text-align: left;
 }
-
 .center {
   text-align: center;
 }
-
-.nav-bar-links {
+.nav-bar__links {
   font-size: 1.3125rem;
   font-weight: 400;
   list-style-type: none;
 }
-
 .nitro-pink-background {
   background-color: #fff0ed;
 }
-
 .light-gray-background {
   background-color: #f7f7f7;
 }
-
 .icon {
-  min-width: 3.125rem;
+  min-width: 4rem;
   max-width: 7.5rem;
 }
-
-
-
-/* This is for the footer */
-.contact-card {
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  padding: 0.5rem;
-  margin-left: 2rem;
-}
-
-.contact-card__icon {
-  vertical-align: middle;
-}
-
-.mainmenu-box__price{
-  color: #5BACC3;
-  text-align: center;
-  font-size: 28px;
-  padding: 1.5rem;
-  margin: 0rem;
-}
-
