@@ -1,11 +1,11 @@
 /* This is for the Herolanding section  */
-.heroland__container{
+.heroland__container {
   display: flex;
   width: 80rem;
   justify-content: space-between;
   margin: 0 auto;
 }
-.heroland__card{
+.heroland__card {
   display: flex;
   flex-direction: column;
   height: 40rem;
@@ -13,33 +13,35 @@
   margin: 2rem;
   justify-content: center;
 }
-.heroland__card--textleft{
+.heroland__card--textleft {
   margin: 2.5rem 0;
 }
-.heroland__cardimage{
+.heroland__cardimage {
   height: 35rem;
-  width:20rem;
+  width: 20rem;
 }
 
 /* Our products */
-.ourproducts__container{
+.ourproducts {
+  /*where the our products cards are*/
+  /* end of cards */
+}
+.ourproducts__container {
   display: flex;
   flex-direction: column;
 }
-.ourproducts__title{
+.ourproducts__title {
   margin: 0px auto;
   text-align: center;
   padding: 2rem 2rem;
   font-size: 5rem;
 }
-/*where the our products cards are*/
-.ourproducts__cardcontainer{
+.ourproducts__cardcontainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .ourproducts__card {
   height: 32rem;
   width: 25rem;
@@ -48,21 +50,20 @@
   border-radius: 1rem;
   box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(8, 8, 8, 0.2);
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: black;
   margin: 1rem 4rem;
-
 }
-.ourproducts__cardimagecontainer{
-  height:65%;
-  width:100%;
+.ourproducts__cardimagecontainer {
+  height: 65%;
+  width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
-.ourproducts__cardimage{
+.ourproducts__cardimage {
   margin: 2rem auto;
 }
-.ourproducts__carddescriptcontainer{
+.ourproducts__carddescriptcontainer {
   height: 35%;
   width: 100%;
   margin: 0;
@@ -73,41 +74,38 @@
 .ourproducts__carddescription {
   width: 75%;
 }
-.ourproducts__cardproducttitle{
+.ourproducts__cardproducttitle {
   font-size: 2.25rem;
   margin-top: 3rem;
   margin-left: 1.5rem;
   text-align: left;
 }
-.ourproducts__cardproductportion{
+.ourproducts__cardproductportion {
   font-size: 1.25rem;
   margin-bottom: auto;
   margin-left: 1.5rem;
   text-align: left;
-  color:slategray
+  color: slategray;
 }
-.ourproducts__cardpricingcontainer{
+.ourproducts__cardpricingcontainer {
   width: 25%;
 }
-.ourproducts__cardpricing{
-  font-size:2.25rem;
+.ourproducts__cardpricing {
+  font-size: 2.25rem;
   color: #5BACC3;
   font-weight: 900;
   margin-top: 4rem;
 }
-
-/* end of cards */
-.ourproducts__viewall{
+.ourproducts__viewall {
   margin: 0px auto;
   text-align: center;
   padding: 3rem 5rem;
   font-size: 1.5rem;
 }
-
-.ourproducts__viewallbutton{
+.ourproducts__viewallbutton {
   width: 10rem;
   margin: 0 auto;
-  padding: .75rem 2.25rem;
+  padding: 0.75rem 2.25rem;
 }
 
 .discount-banner {
@@ -121,13 +119,12 @@
 }
 
 /* This is for the footer */
-.contact__container{
+.contact__container {
   width: 70%;
   margin: 0 auto;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-
 .contact__card {
   box-sizing: border-box;
   display: inline-block;
@@ -135,8 +132,4 @@
   width: 30rem;
   padding: 0.5rem;
   margin-left: 2rem;
-}
-
-.contact-card__icon {
-  vertical-align: middle;
-}
+}/*# sourceMappingURL=landing.css.map */

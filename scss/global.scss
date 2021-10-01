@@ -46,52 +46,19 @@ p {
   color: #5BACC3;
   text-align: center;
 }
-/* Specific to nav bar and should be global */
-.nav-bar{
-  background-color: #fff0ed;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.nav-bar__landing{
-  background-color: #fff0ed;
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-.nav-bar__logoblockcontainer{
-  display: flex;
-  align-items: flex-end;
-}
-.nav-bar__nitro{
-  margin-right: 4rem;
-  font-size: 3.75rem;
-  font-weight: 300;
-}
-.nav-bar__blockcontainer{
-  display:flex;
-}
-.nav-bar__block{
-  margin: auto 2em 0.25em 0em;
-}
-/* specific to the hero background image and the menu rectangle */
-.blue-button{
-  background-color: #5BACC3;
-  color: white;
-  border: none;
-  font-size: 1.5em;
-  padding: .75rem 2.25rem;
-}
+
 .left {
   text-align: left;
 }
 .center {
   text-align: center;
 }
-.nav-bar__links {
-  font-size: 1.3125rem;
-  font-weight: 400;
-  list-style-type: none;
+.blue-button{
+  background-color: #5BACC3;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  padding: .75rem 2.25rem;
 }
 .nitro-pink-background {
   background-color: #fff0ed;
@@ -102,4 +69,43 @@ p {
 .icon {
   min-width: 4rem;
   max-width: 7.5rem;
+}
+/* Specific to nav bar and should be global */
+.nav-bar{
+  background-color: #fff0ed;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__landing{
+    background-color: #fff0ed;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  &__logoblockcontainer{
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__nitro{
+    margin-right: 4rem;
+    font-size: 3.75rem;
+    font-weight: 300;
+  }
+
+  &__blockcontainer{
+    display:flex;
+  }
+
+  &__block{
+    margin: auto 2em 0.25em 0em;
+  }
+
+  &__links {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    list-style-type: none;
+  }
 }

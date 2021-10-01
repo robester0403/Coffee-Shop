@@ -1,0 +1,145 @@
+/* This is for the Herolanding section  */
+.heroland{
+
+  &__container{
+    display: flex;
+    width: 80rem;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    margin: 2rem;
+    justify-content: center;
+  }
+
+  &__card--textleft{
+    margin: 2.5rem 0;
+  }
+
+  &__cardimage{
+    height: 35rem;
+    width:20rem;
+  }
+}
+/* Our products */
+.ourproducts{
+  
+  &__container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__title{
+    margin: 0px auto;
+    text-align: center;
+    padding: 2rem 2rem;
+    font-size: 5rem;
+  }
+/*where the our products cards are*/
+  &__cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    height: 32rem;
+    width: 25rem;
+    min-width: 25rem;
+    background-color: #FFF;
+    border-radius: 1rem;
+    box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(8, 8, 8, 0.2);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 1rem 4rem;
+  }
+
+  &__cardimagecontainer{
+    height:65%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  &__cardimage{
+  margin: 2rem auto;
+  }
+  &__carddescriptcontainer{
+  height: 35%;
+  width: 100%;
+  margin: 0;
+  background-color: #fff0ed;
+  display: flex;
+  flex-direction: row;
+  }
+  &__carddescription {
+  width: 75%;
+  }
+  &__cardproducttitle{
+  font-size: 2.25rem;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  text-align: left;
+  }
+  &__cardproductportion{
+  font-size: 1.25rem;
+  margin-bottom: auto;
+  margin-left: 1.5rem;
+  text-align: left;
+  color:slategray
+  }
+  &__cardpricingcontainer{
+  width: 25%;
+  }
+  &__cardpricing{
+  font-size:2.25rem;
+  color: #5BACC3;
+  font-weight: 900;
+  margin-top: 4rem;
+  }
+/* end of cards */
+  &__viewall{
+  margin: 0px auto;
+  text-align: center;
+  padding: 3rem 5rem;
+  font-size: 1.5rem;
+  }
+  &__viewallbutton{
+  width: 10rem;
+  margin: 0 auto;
+  padding: .75rem 2.25rem;
+  }
+}
+.discount-banner {
+  color: #FFF;
+  font-size: 2.5rem;
+  background-color: #393939;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto;
+  padding: 10px;
+}
+/* This is for the footer */
+.contact{
+  &__container{
+  width: 70%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  }
+
+  &__card {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 30rem;
+  padding: 0.5rem;
+  margin-left: 2rem;
+  }
+}

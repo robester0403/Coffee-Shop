@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-size: 2.0625rem;
+  font-weight: 300;
+}
+
+footer {
+  font-size: 2.0625rem;
+  font-weight: 300;
+}
+
+body {
+  color: #393939;
+  font-family: "Open Sans", sans-serif;
+  background-color: #FFF;
+}
+
+a:link {
+  color: initial;
+  text-decoration: none;
+}
+
+a:visited {
+  color: initial;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.price {
+  color: #5BACC3;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.blue-button {
+  background-color: #5BACC3;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  padding: 0.75rem 2.25rem;
+}
+
+.nitro-pink-background {
+  background-color: #fff0ed;
+}
+
+.light-gray-background {
+  background-color: #f7f7f7;
+}
+
+.icon {
+  min-width: 4rem;
+  max-width: 7.5rem;
+}
+
+/* Specific to nav bar and should be global */
+.nav-bar {
+  background-color: #fff0ed;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar__landing {
+  background-color: #fff0ed;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-bar__logoblockcontainer {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-bar__nitro {
+  margin-right: 4rem;
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+.nav-bar__blockcontainer {
+  display: flex;
+}
+.nav-bar__block {
+  margin: auto 2em 0.25em 0em;
+}
+.nav-bar__links {
+  font-size: 1.3125rem;
+  font-weight: 400;
+  list-style-type: none;
+}/*# sourceMappingURL=global.css.map */
