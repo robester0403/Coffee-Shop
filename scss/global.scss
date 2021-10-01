@@ -1,3 +1,7 @@
+@use "partials/colors" as *;
+@use "partials/mixins" as *;
+@use "partials/variables" as *;
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,7 +47,7 @@ p {
   font-weight: 400;
 }
 .price{
-  color: #5BACC3;
+  color: $color-bright-blue;
   text-align: center;
 }
 
@@ -54,7 +58,7 @@ p {
   text-align: center;
 }
 .blue-button{
-  background-color: #5BACC3;
+  background-color: $color-bright-blue;
   color: white;
   border: none;
   font-size: 1.5em;

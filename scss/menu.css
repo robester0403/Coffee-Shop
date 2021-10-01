@@ -26,13 +26,17 @@
   background-color: transparent;
   position: absolute;
   font-size: 2.5rem;
-  right: 0.6rem;
-  bottom: 0.6rem;
+  right: 10px;
+  bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+}
+.bg-img__menublueborder:active {
+  right: 0px;
+  bottom: 0px;
 }
 
 /* Menu section drinks */

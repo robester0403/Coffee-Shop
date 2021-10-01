@@ -1,9 +1,6 @@
-@mixin center-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@use "partials/colors" as *;
+@use "partials/mixins" as *;
+@use "partials/variables" as *;
 
 .bg-img{
   background-image: url("../../assets/coffee-circle.jpg");
@@ -31,10 +28,14 @@
     background-color: transparent;
     position: absolute;
     font-size: 2.5rem;
-    right: 0.6rem;
-    bottom: 0.6rem;
+    right: 10px;
+    bottom: 10px;
     @include center-content;
     box-sizing: border-box;
+    &:active{
+      right: 0px;
+      bottom: 0px;
+    }
   }
 }
 /* Menu section drinks */

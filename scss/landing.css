@@ -1,16 +1,54 @@
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes infinitediscountbanner {
+  0% {
+    background: #393939;
+  }
+  50% {
+    background: #5BACC3;
+  }
+  100% {
+    background: #393939;
+  }
+}
+@keyframes infinitediscountbanner {
+  0% {
+    background: #393939;
+  }
+  50% {
+    background: #5BACC3;
+  }
+  100% {
+    background: #393939;
+  }
+}
 /* This is for the Herolanding section  */
 .heroland__container {
-  display: flex;
   width: 80rem;
-  justify-content: space-between;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .heroland__card {
-  display: flex;
-  flex-direction: column;
   height: 40rem;
   width: 25rem;
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .heroland__card--textleft {
@@ -32,9 +70,9 @@
 }
 .ourproducts__title {
   margin: 0px auto;
-  text-align: center;
   padding: 2rem 2rem;
   font-size: 5rem;
+  text-align: center;
 }
 .ourproducts__cardcontainer {
   display: flex;
@@ -63,6 +101,10 @@
 .ourproducts__cardimage {
   margin: 2rem auto;
 }
+.ourproducts__cardimage:hover {
+  -webkit-animation: rotating 2s linear infinite;
+          animation: rotating 2s linear infinite;
+}
 .ourproducts__carddescriptcontainer {
   height: 35%;
   width: 100%;
@@ -76,16 +118,16 @@
 }
 .ourproducts__cardproducttitle {
   font-size: 2.25rem;
+  text-align: left;
   margin-top: 3rem;
   margin-left: 1.5rem;
-  text-align: left;
 }
 .ourproducts__cardproductportion {
   font-size: 1.25rem;
+  text-align: left;
   margin-bottom: auto;
   margin-left: 1.5rem;
-  text-align: left;
-  color: slategray;
+  color: #636363;
 }
 .ourproducts__cardpricingcontainer {
   width: 25%;
@@ -116,6 +158,8 @@
   width: 60%;
   margin: 100px auto;
   padding: 10px;
+  -webkit-animation: infinitediscountbanner 2.5s infinite;
+          animation: infinitediscountbanner 2.5s infinite;
 }
 
 /* This is for the footer */
